@@ -1,9 +1,9 @@
 {
   "name": "stdesm-dual-mode",
   "scripts": {
-    "start-stdesm-cjs": "node -r @std/esm index.js",
-    "start-stdesm-esm": "node -r @std/esm index.mjs",
-    "start-node-esm": "node --experimental-modules index.mjs"
+    "start-stdesm-js": "node -r @std/esm index.js",
+    "start-stdesm-mjs": "node -r @std/esm index.mjs",
+    "start-node-mjs": "node --experimental-modules index.mjs"
   },
   "dependencies": {
     "@std/esm": "0.23.0"
